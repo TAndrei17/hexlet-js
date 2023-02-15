@@ -1,1 +1,7 @@
-My first project on Hexlet
+Project for practice and code testing:
+ - git/GitHub
+ - environment settings
+ - package.json
+ - Command line/Node JS/REPL
+ - testing
+ - drafts
