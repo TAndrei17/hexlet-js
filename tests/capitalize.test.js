@@ -1,4 +1,4 @@
-import { strict as assert } from 'node:assert';
+import assert from 'power-assert';
 import capitalize from '../capitalize.js';
 
 assert.equal(capitalize('hello'), 'Hello');
