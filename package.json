@@ -8,7 +8,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+    "test": "node ./tests/capitalize.test.js"
   },
   "repository": {
     "type": "git",
