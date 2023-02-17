@@ -1,7 +1,7 @@
-import assert from 'power-assert';
-import capitalize from '../capitalize.js';
+import assert from "power-assert";
+import capitalize from "../capitalize.js";
 
-assert(capitalize('hello') === 'Hello');
-assert(capitalize('') === 'Hex');
+assert(capitalize("hello") === "Hello");
+assert(capitalize("") === "Hex");
 
-console.log('Тесты прошли!');
+console.log("Тесты прошли!");
