@@ -1,8 +1,8 @@
 // import _ from 'lodash';
 
 const capitalize = (text) => {
-  if (text === '') {
-    return '';
+  if (text === "") {
+    return "";
   }
   const firstChar = text[0].toUpperCase();
   const restSubString = text.slice(1);
