@@ -7,6 +7,9 @@
   "engines": {
     "node": ">=14"
   },
+  "scripts": {
+    "test": "babel-node --presets power-assert ./test/capitalize_PA.test.js"
+  },
   "directories": {
     "test": "test/"
   },
@@ -21,11 +24,13 @@
   },
   "homepage": "https://github.com/TAndrei17/hexlet-js#readme",
   "dependencies": {
-    "babel": "^6.23.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
     "babel-preset-power-assert": "^3.0.0",
     "eslint": "^8.33.0",
     "eslint-config-airbnb-base": "^15.0.0",
