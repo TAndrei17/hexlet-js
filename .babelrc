@@ -1,3 +1,9 @@
 {
+<<<<<<< HEAD
   "presets": ["power-assert"]
+=======
+  "presets": [
+    "power-assert"
+  ]
+>>>>>>> origin/main
 }
