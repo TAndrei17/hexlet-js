@@ -8,11 +8,7 @@
     "node": ">=14"
   },
   "scripts": {
-<<<<<<< HEAD
     "test": "babel-node --presets power-assert ./test/capitalize_PA.test.js"
-=======
-    "test": "babel"
->>>>>>> origin/main
   },
   "directories": {
     "test": "test/"
@@ -33,11 +29,6 @@
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
-<<<<<<< HEAD
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
-=======
->>>>>>> origin/main
     "babel-preset-power-assert": "^3.0.0",
     "eslint": "^8.33.0",
     "eslint-config-airbnb-base": "^15.0.0",
