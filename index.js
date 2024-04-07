@@ -1,6 +1,5 @@
-import _ from "lodash";
+import _ from 'lodash';
+import test from './src/index.js';
 
-console.log("Hello, World");
-
-const test = _.includes([1, 2, 3], 2);
-console.log(test);
+console.log('Hello, World');
+console.log(test());
